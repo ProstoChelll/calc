@@ -42,73 +42,46 @@ html{
     flex-direction: column;
     gap: 5px;
 }
-.buttons__first{
-    display: flex;
-    gap: 5px;
-}
-.buttons__first div{
+.btn{
     width: 60px;
     height: 60px;
-    background: #333;
     border-radius: 100%;
     text-align: center;
     line-height: 63px;
     font-size: 1.5rem;
     cursor: pointer;
+    background: #333333;
+}
+.buttons__first{
+    display: flex;
+    gap: 5px;
 }
 .buttons__second{
     display: flex;
     gap: 5px;
 }
-.buttons__second div{
-    width: 60px;
-    height: 60px;
-    background: #333;
-    border-radius: 100%;
-    text-align: center;
-    line-height: 63px;
-    font-size: 1.5rem;
-    cursor: pointer;
-}
 .buttons__therd{
     display: flex;
     gap: 5px;
-}
-.buttons__therd div{
-    width: 60px;
-    height: 60px;
-    background: #333;
-    border-radius: 100%;
-    text-align: center;
-    line-height: 63px;
-    font-size: 1.5rem;
-    cursor: pointer;
 }
 .buttons__fourd{
     display: flex;
     gap: 5px;
 }
-.buttons__fourd div{
-    width: 60px;
-    height: 60px;
-    background: #333;
-    border-radius: 100%;
-    text-align: center;
-    line-height: 63px;
-    font-size: 1.5rem;
-    cursor: pointer;
-}
 .buttons__five{
     display: flex;
     gap: 5px;
 }
-.buttons__five div{
-    width: 60px;
+.buttons__five :first-child{
+    width: 126px;
     height: 60px;
-    background: #333;
-    border-radius: 100%;
-    text-align: center;
-    line-height: 63px;
-    font-size: 1.5rem;
-    cursor: pointer;
+    left: 17px;
+    top: 770px;
+    border-radius: 352px;
+}
+.bg-grey{
+    background: #A5A5A5;
+}
+.bg-orange{
+    background: #F1A33B;
 }

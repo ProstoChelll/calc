@@ -5,7 +5,7 @@ let finish  = false;
 const ac = document.querySelector(".ac");
 const buttons = document.querySelector(".buttons")
 const digit = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '.'];
-const action = ['-', '+', 'X', '/'];
+const action = ['-', '+', 'х', '/'];
 const out = document.querySelector('.calc-screen p');
 
 function clear () {
@@ -57,7 +57,7 @@ buttons.addEventListener("click", (event) => {
             case "-":
                 a = a - b;
                 break;
-            case "X":
+            case "х":
                 a = a * b;
                 break;
             case "/":
@@ -67,5 +67,4 @@ buttons.addEventListener("click", (event) => {
         finish = true;
         out.textContent = a;
     }
-
 })
